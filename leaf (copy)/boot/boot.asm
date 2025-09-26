@@ -10,16 +10,16 @@ start:
     call print_string
 
     mov bx, 0x8000         ; Load kernel to 0x8000
-    mov ah, 0x02           ; INT 13h: Read sectors
+    mov ah, 0x02       
     mov al, 2              ; Number of sectors to read
-    mov ch, 0              ; Cylinder
-    mov cl, 2              ; Sector (starts at 1)
-    mov dh, 0              ; Head
+    mov ch, 0             
+    mov cl, 2              ; Sector starts at 1
+    mov dh, 0              
     mov dl, 0x00           ; Drive (floppy)
     int 0x13
     jc disk_error
 
-    jmp 0x0000:0x8000      ; Jump to kernel
+    jmp 0x0000:0x8000      
 
 disk_error:
     mov si, err
