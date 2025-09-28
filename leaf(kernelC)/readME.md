@@ -17,11 +17,11 @@ make clr -to clear the old img
 go and type these commands .
 
 make get-nasm 
-make get-binutils
-make get-make
-make get-gcc 
-make get-qemu
-make get-hexedit
+   make get-binutils
+     make get-make
+       make get-gcc 
+         make get-qemu
+           make get-hexedit
 
 **if something dosent work then update the apt command**
 go and type this command
