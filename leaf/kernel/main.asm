@@ -503,7 +503,7 @@ strncmp5:
 ; -------------------------
 ; DATA
 ; -------------------------
-prompt_buf db "> ",0
+prompt_buf db "Root> ",0
 color_byte db 0x0E
 
 unknown     db "Unknown command",0
