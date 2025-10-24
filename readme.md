@@ -1,5 +1,5 @@
 # 🌿 LeafOS  
-### Lightweight, Experimental, and Open-Source Operating System
+### Lightweight, Experimental, and Open-Source Operating System   (DRIVERS !)
 
 ---
 
@@ -20,16 +20,12 @@ place to explore.
 
 ---
 
-## 🧩 Core Features
+## 🧩 Avilable Drivers
 
--  **Lightweight kernel** written in C and Assembly  
--  **bootloader in 32 bit** using NASM  
--  **Text-mode VGA driver** support 
--  **Keyboard driver** support  
--  **IDT,GPT driver** support 
--  **shell drivers** support  
--  **Completely open source** — licensed freely for anyone to modify and use  
--  **Read roadmap.md inside the leaf2 directorie to see what is or what is not added to the kernel** drivers etc.
+- **VGA**
+- **IDT*
+- **keyboard**
+- 
 
 ---
 
@@ -68,3 +64,5 @@ On Debian/Ubuntu-based systems, install them using:
 ```bash
 sudo apt install make nasm gcc binutils qemu-system-x86
 
+
+**THIS IS ONLY THE DRIVERS ! FOR DRIVER DEVELOPERS!**
