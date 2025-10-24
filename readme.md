@@ -23,7 +23,7 @@ place to explore.
 ## 🧩 Avilable Drivers
 
 - **VGA**
-- **IDT*
+- **IDT**
 - **keyboard**
 - 
 
