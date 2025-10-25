@@ -56,9 +56,13 @@ Before building, make sure you have these tools installed:
 | `ld` | Linker (part of binutils) |
 | `binutils` | Provides `ld`, `objcopy`, etc. |
 | `qemu-system-x86_64` | Emulator for testing your OS |
+| `python3` | Making grub costume menu |
+| `grub-mkrescue` | grub |
+| `xorriso` | making the ISO |
 
 On Debian/Ubuntu-based systems, install them using:
 
 ```bash
 sudo apt install make nasm gcc binutils qemu-system-x86
+sudo apt install -y grub-common grub-pc-bin xorriso python3
 
