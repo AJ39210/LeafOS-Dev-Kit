@@ -22,14 +22,12 @@ place to explore.
 
 ## 🧩 Core Features
 
--  **Lightweight kernel** written in C and Assembly  
--  **bootloader in 32 bit** using NASM  
--  **Text-mode VGA driver** support 
--  **Keyboard driver** support  
--  **IDT,GPT driver** support 
--  **shell drivers** support  
--  **Completely open source** — licensed freely for anyone to modify and use  
--  **Read roadmap.md inside the leaf2 directorie to see what is or what is not added to the kernel** drivers etc.
+- **Grub bootloader update**
+- **VGA driver**
+- **keyboard driver**
+- **shell procces**
+- **stay tuned**
+  
 
 ---
 
