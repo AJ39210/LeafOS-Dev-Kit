@@ -46,10 +46,6 @@ from boot to kernel.
 
 ---
 
-**Made in Romania**
-buna ziua/seara oameni buni!
-**Made in Romania**
-
 ## 🛠️ Requirements
 
 Before building, make sure you have these tools installed:
