@@ -1,0 +1,2 @@
+LeafOS Configuration File
+Version: 1.0

@@ -1,0 +1,29 @@
+// include/types.h - Common type definitions
+
+#ifndef TYPES_H
+#define TYPES_H
+
+// Standard integer types
+typedef unsigned char uint8_t;
+typedef unsigned short uint16_t;
+typedef unsigned int uint32_t;
+typedef unsigned long long uint64_t;
+
+typedef signed char int8_t;
+typedef signed short int16_t;
+typedef signed int int32_t;
+typedef signed long long int64_t;
+
+// Size types
+typedef unsigned int size_t;
+typedef signed int ssize_t;
+
+// Boolean type
+typedef enum { false = 0, true = 1 } bool;
+
+// NULL pointer
+#ifndef NULL
+#define NULL ((void*)0)
+#endif
+
+#endif
